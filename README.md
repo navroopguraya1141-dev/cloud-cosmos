@@ -49,6 +49,26 @@ Project structure
         └── README.md
 ⸻
 
+  Setup Instructions
+
+  Follow these exact steps to run your project locally:
+   1. Clone the repository
+   git clone https://github.com/navroopguraya1141-dev/cloud-cosmos.git
+   cd cloud-cosmos
+
+   2. Install dependencies
+  
+   npm install
+
+   3. Create and configure environment variables
+   
+   touch .env.local
+
+   4. Run the development server
+   
+   npm run dev
+
+
 Deployment
 
 Live Demo URL:
@@ -99,6 +119,23 @@ Technical Architecture
 	     4.	Gemini model (“gemini-2.0-flash”) generates a short summary.
 	     5.	The summary is displayed in the frontend and saved to Firestore.
 
+
+  References
+  
+	•	Firebase Documentation
+	•	Google Gemini API
+	•	Next.js Documentation
+	•	Tailwind CSS
+
+
+Acknowledgements
+
+  Special thanks to:
+  
+	•	Firebase for Authentication & Firestore database
+	•	Google Gemini API for AI summarization capabilities
+	•	Vercel for seamless deployment
+	•	Next.js for building a fast, scalable frontend
 
 
 
